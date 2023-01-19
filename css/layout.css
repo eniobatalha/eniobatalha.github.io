@@ -1,0 +1,412 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	color: #dddddd;
+	background-color: #e1e1e1;
+}
+
+/* formatacao do header no menu */
+header#logo h1 {
+	background-image: url('../img/pb.png');
+	background-repeat: no-repeat;
+	width: 4em;
+	height: 4em;
+	margin: 1em 1em 1em 4em;
+}
+
+header#logo h1 a {
+	display: block;
+	text-indent: -999999em;
+	height: 100%;
+}
+
+/* formatacao do menu */
+section#menu {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	background-color: #111111f8;
+	align-items: center;
+	position: fixed;
+}
+
+section#menu nav {
+	font-family: "Roboto Condensed";
+	text-transform: uppercase;
+}
+
+section#menu nav ul {
+	display: flex;
+	align-items: center;
+}
+
+section#menu nav li {
+	width: 6em;
+	margin-right: 1em;
+	font-size: 1.35em;
+	text-align: center;
+	line-height: 3em;
+}
+
+section#menu nav li a {
+	text-decoration: none;
+	color: #e9c05a;
+	display: block;
+}
+
+section#menu nav li a:hover,
+section#menu nav li a:focus,
+section#menu nav li:target a {
+	background-color: #e9c05a;
+	color: #fff;
+}
+
+section#menu nav li:nth-child(5) a {
+	width: 6em;
+	font-size: 1em;
+	line-height: 2em;
+	background-color: #e9c05a;
+	color: #fff;
+	border-radius: 3%;
+}
+
+section#menu nav li:nth-child(5) a:hover {
+	background-color: #DAA520;
+}
+
+/* formatacao da section top */
+section#top {
+	display: flex;
+	width: 100%;
+	height: 40em;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("../img/slider02.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 4em;
+}
+
+section#top h1 {
+	padding-top: 1.5em;
+	color: #DAA520;
+	font-size: 4em;
+	font-weight: 300;
+	letter-spacing: 4px;
+	margin-bottom: 0.5em;
+}
+
+section#top h2 {
+	color: #1f1f1f;
+	font-family: "Montserrat";
+	font-size: 1.5em;
+	font-weight: 300;
+	letter-spacing: 0.25em;
+	margin-bottom: 1.5em;
+}
+
+section#top input[type="button"] {
+	font-family: "Roboto Condensed";
+	text-transform: uppercase;
+	background-color: #ffcc4b;
+	color: #1f1f1f;
+	border: none;
+	width: 15em;
+	height: 3em;
+	font-size: 1.35em;
+	text-align: center;
+}
+
+section#top input[type="button"]:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: #DAA520;
+}
+
+/* formatacao da section atuacao */
+section#atuacao {
+	width: 100%;
+	background-color: #1f1f1f;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+section#content-atuacao {
+	display: flex;
+	justify-content: center;
+	gap: 5em;
+}
+
+section#atuacao header h2 {
+	text-align: center;
+	padding-top: 0.66em;
+	color: #ffcc4b;
+	font-size: 2em;
+	font-weight: 500;
+	letter-spacing: 0.25em;
+	margin-bottom: 2em;
+}
+
+section#content-atuacao section {
+	display: flex;
+	width: 20em;
+	flex-direction: column;
+	align-items: center;
+}
+
+section#direito-civil,
+section#processo-civil {
+	margin-right: 4em;
+}
+
+section#content-atuacao section img {
+	width: 9em;
+	height: 9em;
+}
+
+section#content-atuacao section h3 {
+	text-transform: uppercase;
+	font-family: "Roboto Condensed";
+	text-align: center;
+	color: #DAA520;
+	font-weight: 700;
+	font-size: 1.33em;
+	margin: 1em 0 0.5em;
+}
+
+section#content-atuacao section h4 {
+	font-family: "Roboto Condensed";
+	color: #d8d8d8;
+	margin-bottom: 1.5em;
+	font-weight: 200;
+	text-align: center;
+}
+
+/* formatacao da section clientes */
+section#clientes {
+	width: 100%;
+	background-color: rgb(230, 230, 230);
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+div#row-clientes {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: space-around;
+}
+
+section#content-clientes {
+	display: flex;
+	justify-content: center;
+	gap: 4em;
+}
+
+section#content-clientes section {
+	width: 192px;
+	height: 192px;
+	box-shadow: 0.1em 0.1em 0.1em 0.1em #505050;
+}
+
+section#content-clientes img:hover {
+	transform: scale(1.25);
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0.125em 0.125em 0.125em 0.125em #505050;
+  }
+
+section#clientes header h2 {
+	text-align: center;
+	margin-left: 1.5em;
+	color: #1f1f1f;
+	font-size: 2em;
+	font-weight: 500;
+	letter-spacing: 0.25em;
+	margin-bottom: 0.5em;
+}
+
+section#clientes h3 {
+	font-family: "Roboto Condensed";
+	color: #1f1f1f;
+	margin-bottom: 1.5em;
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+
+/* formatacao da section formulário de contato */
+#contato {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #1f1f1f;
+	padding-top: 1em;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 4em 0 2em;
+}
+
+#contato form {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contato .form-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+#contato .form-group {
+	display: flex;
+	width: 100%;
+	margin: 1em;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+#contato label {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto Condensed";
+	color: #DAA520;
+	font-weight: 1000;
+	font-size: 1.33em;
+	position: absolute;
+	top: -1em;
+	left: 0;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+#contato input {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	width: 30.625em;
+	height: 2.5em;
+	font-family: "Roboto Condensed";
+	font-size: 1em;
+	padding-left: 0.75em;
+}
+
+#contato textarea {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 63.5em;
+	height: 10em;
+	font-family: "Roboto Condensed";
+	font-size: 1em;
+	padding: 0.25em;
+}
+
+#detalhes textarea {
+	width: 100%;
+	height: 6.25em;
+}
+
+#detalhes label {
+	margin-top: 2em;
+	text-align: center;
+}
+
+#contato button {
+	font-family: "Roboto Condensed";
+	text-transform: uppercase;
+	background-color: #ffcc4b;
+	color: #1f1f1f;
+	border: none;
+	width: 5em;
+	height: 2em;
+	font-size: 1.35em;
+	text-align: center;
+}
+
+#contato button:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: #DAA520;
+}
+
+/* inicio da formatacao do footer */
+div#footer {
+	width: 100%;
+	background-color: #472727;
+	padding: 1em 0 1em 1em;
+}
+
+div#footer footer nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div#footer footer nav address {
+	font-size: 1em;
+	padding-right: 2em;
+}
+
+/* image replacement e css sprite */
+nav#social dl {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding-left: 3em;
+}
+
+nav#social dl dd {
+	width: 40px;
+	height: 40px;
+	margin-right: 1em;
+}
+
+nav#social dl dd a {
+	background: url('../img/sprite-social.png') no-repeat;
+	display: block;
+	height: 100%;
+	text-indent: -999999em;
+}
+
+nav#social dl dd:nth-child(1) a {
+	background-position: 0 0;
+}
+
+nav#social dl dd:nth-child(1) a:hover {
+	background-position: 0 -40px;
+}
+
+nav#social dl dd:nth-child(2) a {
+	background-position: -40px 0;
+}
+
+nav#social dl dd:nth-child(2) a:hover {
+	background-position: -40px -40px;
+}
+
+nav#social dl dd:nth-child(3) a {
+	background-position: -80px 0;
+}
+
+nav#social dl dd:nth-child(3) a:hover {
+	background-position: -80px -40px;
+}
+
+nav#social dl dd:nth-child(4) a {
+	background-position: -120px 0;
+}
+
+nav#social dl dd:nth-child(4) a:hover {
+	background-position: -120px -40px;
+}
