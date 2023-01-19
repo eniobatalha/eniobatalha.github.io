@@ -12,7 +12,7 @@ body {
 
 /* formatacao do header no menu */
 header#logo h1 {
-	background-image: url('../img/pb.png');
+	background-image: url('../img/pb2.png');
 	background-repeat: no-repeat;
 	width: 4em;
 	height: 4em;
@@ -64,7 +64,7 @@ section#menu nav li a:hover,
 section#menu nav li a:focus,
 section#menu nav li:target a {
 	background-color: #e9c05a;
-	color: #fff;
+	color: #1f1f1f;
 }
 
 section#menu nav li:nth-child(5) a {
@@ -72,7 +72,7 @@ section#menu nav li:nth-child(5) a {
 	font-size: 1em;
 	line-height: 2em;
 	background-color: #e9c05a;
-	color: #fff;
+	color: #1f1f1f;
 	border-radius: 3%;
 }
 
@@ -119,6 +119,7 @@ section#top input[type="button"] {
 	border: none;
 	width: 15em;
 	height: 3em;
+	font-weight: 600;
 	font-size: 1.35em;
 	text-align: center;
 }
@@ -410,3 +411,14 @@ nav#social dl dd:nth-child(4) a {
 nav#social dl dd:nth-child(4) a:hover {
 	background-position: -120px -40px;
 }
+
+/* media queries */
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}
+
