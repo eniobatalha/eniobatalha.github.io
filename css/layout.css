@@ -144,14 +144,23 @@ section#content-atuacao {
 	gap: 5em;
 }
 
-section#atuacao header h2 {
+section#atuacao header h1 {
 	text-align: center;
 	padding-top: 0.66em;
 	color: #ffcc4b;
 	font-size: 2em;
 	font-weight: 500;
 	letter-spacing: 0.25em;
-	margin-bottom: 2em;
+	margin-bottom: 0.5em;
+}
+
+section#atuacao h2 {
+	font-family: "Roboto Condensed";
+	color: #d8d8d8;
+	margin-bottom: 1.5em;
+	font-weight: 200;
+	text-align: center;
+	padding-bottom: 2em;
 }
 
 section#content-atuacao section {
@@ -357,6 +366,15 @@ div#footer footer nav {
 div#footer footer nav address {
 	font-size: 1em;
 	padding-right: 2em;
+}
+
+div#footer footer nav address a:link {
+	text-decoration: underline;
+	color: #DAA520;
+}
+
+div#footer footer nav address a:visited{
+	color: #DAA520
 }
 
 /* image replacement e css sprite */
