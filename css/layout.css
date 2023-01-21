@@ -12,7 +12,7 @@ body {
 
 /* formatacao do header no menu */
 header#logo h1 {
-	background-image: url('../img/pb2.png');
+	background-image: url('../img/logo/pb.png');
 	background-repeat: no-repeat;
 	width: 4em;
 	height: 4em;
@@ -88,7 +88,7 @@ section#top {
 	height: 40em;
 	flex-direction: column;
 	justify-content: center;
-	background-image: url("../img/slider02.jpg");
+	background-image: url("../img/bg/bg02.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-left: 4em;
@@ -377,7 +377,7 @@ div#footer footer nav {
 }
 
 div#footer footer nav address {
-	font-size: 1em;
+	font-size: 0.8em;
 	padding-right: 2em;
 }
 
@@ -399,13 +399,13 @@ nav#social dl {
 }
 
 nav#social dl dd {
-	width: 40px;
-	height: 40px;
-	margin-right: 1em;
+	width: 30px;
+	height: 30px;
+	margin-right: 0.5em;
 }
 
 nav#social dl dd a {
-	background: url('../img/sprite-social.png') no-repeat;
+	background: url('../img/sprites/sprite-social2.png') no-repeat;
 	display: block;
 	height: 100%;
 	text-indent: -999999em;
@@ -443,7 +443,7 @@ nav#social dl dd:nth-child(4) a:hover {
 	background-position: -120px -40px;
 }
 
-/* media queries */
+/* media queries PENDENTE */
 @media screen and (max-width: 992px) {
 }
 
