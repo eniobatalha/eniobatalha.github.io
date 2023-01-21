@@ -13,7 +13,7 @@ menuItems.forEach(function(item) {
     } else {
       e.preventDefault(); // Previne o comportamento padrão do link
       var section = document.querySelector(sectionId); // Obtém a seção correspondente
-      section.scrollIntoView({ behavior: 'smooth' }); // Rola para a seção de forma suave
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Rola para a seção de forma suave
     }
   });
 });

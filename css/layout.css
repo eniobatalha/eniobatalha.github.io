@@ -85,7 +85,7 @@ section#menu nav li:nth-child(5) a:hover {
 section#top {
 	display: flex;
 	width: 100%;
-	height: 40em;
+	height: 100vh;
 	flex-direction: column;
 	justify-content: center;
 	background-image: url("../img/bg/bg02.jpg");
@@ -133,16 +133,18 @@ section#top input[type="button"]:hover {
 
 /* formatacao da section atuacao */
 section#atuacao {
+	display: flex;
+	height: 100vh;
 	width: 100%;
 	background-color: #1f1f1f;
-	padding-top: 3em;
-	padding-bottom: 3em;
+	flex-direction: column;
+	justify-content: center;
 }
 
 section#content-atuacao {
 	display: flex;
 	justify-content: center;
-	gap: 5em;
+	gap: 5vw;
 }
 
 section#atuacao header h1 {
@@ -202,10 +204,12 @@ section#content-atuacao section h4 {
 
 /* formatacao da section clientes */
 section#clientes {
+	display: flex;
+	height: 80vh;
 	width: 100%;
 	background-color: rgb(230, 230, 230);
-	padding-top: 4em;
-	padding-bottom: 4em;
+	flex-direction: column;
+	justify-content: center;
 }
 
 div#row-clientes {
@@ -217,7 +221,7 @@ div#row-clientes {
 section#content-clientes {
 	display: flex;
 	justify-content: center;
-	gap: 4em;
+	gap: 5vw;
 }
 
 section#content-clientes section {
@@ -252,18 +256,12 @@ section#clientes h3 {
 	padding-bottom: 2em;
 }
 
-
 /* formatacao da section formulário de contato */
 #contato {
 	display: flex;
-	justify-content: center;
+	height: 100vh;
 	width: 100%;
 	background-color: #1f1f1f;
-	padding-top: 1em;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	padding: 4em 0 2em;
 }
 
 #contato header h1 {
@@ -281,6 +279,7 @@ section#clientes h3 {
 	width: 100%;
 	height: 100%;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
 
